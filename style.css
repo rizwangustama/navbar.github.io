@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Playfair+Display:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+nav .clear {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    margin: 0 auto;
+    width: 69%;
+}
+
+body{
+    background: url(./asset/front-banner.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.verikal {
+    width: 0; 
+    height: 80px; 
+    background-color: rgb(192, 192, 192);
+    float: left;
+    margin: 20px auto;
+}
+
+.horizontal {
+    width: 100%;
+    background-color: rgb(192, 192, 192);
+}
+
+nav {
+    /* background-color: white; */
+    height: 120px;
+}
+
+nav .kiri {
+    float: left;
+    padding: 0 4px;
+}
+
+nav .kiri img {
+    width: 90px;
+    padding: 20px;
+}
+nav .kanan {
+    float: left;
+    margin: 20px auto;
+}
+
+nav .atas {
+    display: flex;
+    padding: 10px 0;
+    margin-left: 20px;
+}
+nav .atas a {
+    margin-left: 10px;
+    font-weight: 200;
+    font-size: 13px;
+}
+
+nav .atas img {
+    width: 12px;
+    margin-left: 20px;
+    padding: 0 auto;
+}
+
+nav .atas .row2 {
+    background-color:rgba(192, 192, 192, 0.37);
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-size: 10px;
+}
+
+nav .atas .icon1 {
+    display: flex;
+}
+nav .atas .not img {
+    width: 15px;
+}
+
+
+nav .bawah {
+    display: flex;
+    padding: 10px 0;
+    margin-left: 20px;
+}
+nav .bawahkiri>ul, nav .bawahKanan>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav .bawahkiri>ul>li {
+    float: left;
+    margin: auto 20px;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+nav .bawahKanan {
+    margin-left: 70px;
+}
+
+nav .bawahKanan>ul>li {
+    float: left;
+    margin: auto 20px;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+/* Main */
+.konten {
+    margin: 60px 20px 0 0;
+
+}
+.konten .judul p{
+    padding: 0;
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+}
+
+button {
+    margin: 20px 0;
+    padding: 10px 40px;
+    border-radius: 3px;
+}
+
+.satu {
+    background-color: rgb(60,179,113);
+    border: none;
+    color: white;
+    margin-right: 10px;
+}
+
+.dua {
+    background-color: rgba(255, 255, 255, 0);
+    
+}
+
+.dua:hover {
+    background-color: rgb(60,179,113);
+    color: white;
+}
+
+/* bagian bawah */
+
+.poto {
+    display: flex;
+    margin: 20px 0;
+}
+
+.poto .rowpoto {
+    margin-right: 20px;
+}
+
+
+.bawahKanan ul {
+    list-style-type: none;
+}
+
+li .dropdown {
+    display: inline-block;
+}
+
+.dropdown:hover .isi-dropdown {
+    display: block;
+}
+
+li .isi-dropdown a:hover {
+    color: #fff !important;
+}
+li .isi-dropdown {
+    position: absolute;
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: #f9f9f9;
+    z-index: 1;
+}
+
+li .isi-dropdown a {
+    margin: 25px;
+    color: #3c3c3c !important;
+}
+
+.isi-dropdown a:hover {
+    color: #232323 !important;
+    background: #f3f3f3 !important;
+}
